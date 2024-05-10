@@ -43,4 +43,4 @@ sudo apt install iptables
 
 # Networking Namespace:
 
-A network namespace in Linux provides a way to create isolated network environments, allowing different processes or containers to have their own network stack with separate network interfaces, routing tables, firewall rules, and other networking configurations. 
+A network namespace is a Linux kernel feature that provides a virtualized network stack, enabling processes within the namespace to have their own network interfaces, routing tables, firewall rules, and other network-related resources. This isolation allows different processes or applications to operate in independent network environments, providing flexibility, security, and resource isolation.
