@@ -28,10 +28,10 @@ Some necessary tools which are required for testing are missing ,we were not abl
 To run the commands seamlessly install this packages first:
 
 ```
-    sudo apt update
-    sudo apt install net-tools
-	sudo apt install iproute2
-	sudo apt install iptables
+sudo apt update
+sudo apt install net-tools
+sudo apt install iproute2
+sudo apt install iptables
 ```
  
  ``iptables`` is a powerful tool for configuring packet filtering rules in the Linux kernel's netfilter framework
