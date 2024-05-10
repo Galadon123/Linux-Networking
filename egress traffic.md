@@ -48,3 +48,20 @@ This rule modifies the source IP address of outgoing packets from the subnet 192
 # Firewall configuration
 
 The additional firewall rules are needed to allow all traffic to pass through the br0 interface without restrictions. This ensures smooth communication between devices within the network and with external networks, facilitating the functioning of NAT and SNAT processes and simplifying network configuration. 
+
+# ISSUES
+
+Add a Default Gateway in the route table.
+
+```
+ip netns exec ns0 bash
+ip route add default via 192.168.0.1
+```
+<img src="./images/8.png" width ="600">
+
+**Solution**:We need to add sudo to exec the both commands
+
+```
+sudo ip netns exec ns0 bash
+sudo ip route add default via 192.168.0.1
+```
