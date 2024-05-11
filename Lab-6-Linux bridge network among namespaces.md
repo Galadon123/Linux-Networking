@@ -17,4 +17,4 @@ sudo iptables --append FORWARD --out-interface v-net --jump ACCEPT
 
 These commands append rules to the FORWARD chain of the iptables firewall. They specify that any traffic coming into or going out of the v-net interface (which represents our Linux bridge) should be accepted, allowing it to pass through without any restrictions.
 
-**Clean Up**Cleanup step is essential for efficient resource management, avoiding conflicts, enhancing security, and maintaining system simplicity.
+**Clean Up**: Cleanup step is essential for efficient resource management, avoiding conflicts, enhancing security, and maintaining system simplicity.
